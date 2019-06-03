@@ -1,15 +1,15 @@
-#Comandos para executar o código
+# Commands to run the code
 
-1. Executar o arquivo makefile:
+1. Run the makefile:
 ```bash
 make
 ```
-2. Executar o **mpirun**
+2. Run **MPI**
 ```bash
-mpirun -np 4 --hostfile host_file master_slave
+mpirun -np <nº of processes> --hostfile host_file master_slave
 ```
 
-###Para remover o arquivo executável criado use o comando:
+### To remove the created executable file use the command:
 ```bash
 make clean
 ```
